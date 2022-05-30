@@ -2,7 +2,7 @@ import "./App.scss";
 import VideoPlayer from "./components/VideoPlayer";
 
 function App() {
-  return <div className="App">
+  return <div className="app">
     <VideoPlayer />
   </div>;
 }

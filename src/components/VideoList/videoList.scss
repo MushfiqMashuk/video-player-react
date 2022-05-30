@@ -1,0 +1,29 @@
+@import "../../styles/Variables.scss";
+
+.video_list_container {
+  background-color: $list-container-color;
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  h2 {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .link_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .link {
+    width: 100%;
+    cursor: pointer;
+    background-color: $link-color;
+    margin-bottom: 1rem;
+    padding: 10px;
+    word-wrap: break-word;
+  }
+}
