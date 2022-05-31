@@ -1,5 +1,18 @@
 .player_container {
-  background-color: red;
+  width: auto;
+  height: auto;
   flex: 2;
-  margin-right: 10px;
+  margin-right: 15px;
+
+  .player {
+    position: relative;
+
+    div {
+      position: absolute;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    margin-bottom: 15px;
+  }
 }

@@ -26,4 +26,8 @@
     padding: 10px;
     word-wrap: break-word;
   }
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
 }

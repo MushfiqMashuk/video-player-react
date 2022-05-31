@@ -14,8 +14,8 @@ function VideoList({ videos }) {
     <div className="video_list_container">
       <h2>Video List</h2>
       <div className="link_container">
-        {videos.map((video) => (
-          <div className="link" onClick={() => handlePlay(video)}>
+        {videos.map((video, i) => (
+          <div className="link" key={i} onClick={() => handlePlay(video)}>
             {video.title}
           </div>
         ))}
